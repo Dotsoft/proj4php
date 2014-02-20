@@ -57,6 +57,7 @@ class Proj4php {
         self::$defs['GOOGLE']    = self::$defs['EPSG:3875'];
         self::$defs['EPSG:900913'] = self::$defs['EPSG:3875'];
         self::$defs['EPSG:102113'] = self::$defs['EPSG:3875'];
+		self::$defs['EPSG:2100'] = "+title= Greek Grid +proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-199.87,74.79,246.62,0,0,0,0 +units=m +no_defs";
     }
 
     //lookup table to go from the projection name in WKT to the Proj4php projection name
